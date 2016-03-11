@@ -4,7 +4,9 @@
 # use_frameworks!
 
 target 'iOSBoilerplate' do
-	pod 'PureLayout'
+	pod 'PureLayout' # 支持AutoLayout的语法糖简化
+	pod 'FDStackView' # 对于StackView的Polyfill
+
 end
 
 target 'iOSBoilerplateTests' do
