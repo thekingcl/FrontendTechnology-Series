@@ -1,0 +1,40 @@
+<html>
+    <head>
+    </head>
+    <body>
+        
+    Hello World!
+    
+    <!--引入cordova.js-->
+    <script src="./cordova.js"></script>
+
+    <!--引入遠端jQuery-->
+    <script src="http://cdn.bootcss.com/jquery/3.0.0-beta1/jquery.min.js"></script>
+    
+    <script>
+        $(function(){
+          
+          alert("Remote jQuery Loaded Successfully! ");
+          
+          //<!--执行Cordova本地控件-->
+          
+          alert("Use Cordova Invoke");
+          
+          window.echo = function(str, callback) {
+          cordova.exec(callback, function(err) {
+                       callback('Nothing to echo.');
+                       }, "CordovaPluginsBridge", "echo", [str]);
+          };
+          
+          window.echo("echome", function(echoValue) {
+                      alert(echoValue == "echome"); // should alert true.
+                      });
+          
+        });
+    </script>
+ 
+    </body>
+
+
+
+</html>

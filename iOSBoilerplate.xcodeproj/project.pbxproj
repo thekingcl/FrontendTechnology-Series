@@ -12,10 +12,16 @@
 		18A6322F1C8B3ECC00FD5481 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A632271C8B3ECC00FD5481 /* AppDelegate.swift */; };
 		18A632301C8B3ECC00FD5481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A632281C8B3ECC00FD5481 /* Assets.xcassets */; };
 		18A632311C8B3ECC00FD5481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A632291C8B3ECC00FD5481 /* LaunchScreen.storyboard */; };
-		18A632321C8B3ECC00FD5481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A6322B1C8B3ECC00FD5481 /* Main.storyboard */; };
 		18A632331C8B3ECC00FD5481 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18A6322D1C8B3ECC00FD5481 /* Info.plist */; };
 		18A632341C8B3ECC00FD5481 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6322E1C8B3ECC00FD5481 /* ViewController.swift */; };
 		18A632491C8BCF4700FD5481 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A632481C8BCF4700FD5481 /* Constants.swift */; };
+		18C36B881CB507B0002D339D /* WebViewCatalogueTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C36B871CB507B0002D339D /* WebViewCatalogueTableView.swift */; };
+		18C36C351CB50F1C002D339D /* CordovaContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C36C341CB50F1C002D339D /* CordovaContainer.m */; };
+		18C36C381CB512A8002D339D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C36C371CB512A8002D339D /* Main.storyboard */; };
+		18C36C951CB5138D002D339D /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 18C36C3B1CB5138D002D339D /* config.xml */; };
+		18C36CE61CB5140C002D339D /* www in Resources */ = {isa = PBXBuildFile; fileRef = 18C36CE51CB5140C002D339D /* www */; };
+		18C36CE91CB5FB33002D339D /* CordovaPluginsBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C36CE81CB5FB33002D339D /* CordovaPluginsBridge.m */; };
+		18C36CEB1CB5FD4E002D339D /* README in Resources */ = {isa = PBXBuildFile; fileRef = 18C36CEA1CB5FD4E002D339D /* README */; };
 		B1C61B66338C9670E9A97CFB /* libPods-iOSBoilerplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB883448BAA228506432D269 /* libPods-iOSBoilerplate.a */; };
 /* End PBXBuildFile section */
 
@@ -47,11 +53,20 @@
 		18A632271C8B3ECC00FD5481 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18A632281C8B3ECC00FD5481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A6322A1C8B3ECC00FD5481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		18A6322C1C8B3ECC00FD5481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18A6322D1C8B3ECC00FD5481 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18A6322E1C8B3ECC00FD5481 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18A632481C8BCF4700FD5481 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		18A6324B1C8BCF9400FD5481 /* DataStructure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DataStructure.playground; sourceTree = "<group>"; };
+		18C36B871CB507B0002D339D /* WebViewCatalogueTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewCatalogueTableView.swift; sourceTree = "<group>"; };
+		18C36C331CB50F1C002D339D /* CordovaContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CordovaContainer.h; sourceTree = "<group>"; };
+		18C36C341CB50F1C002D339D /* CordovaContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CordovaContainer.m; sourceTree = "<group>"; };
+		18C36C361CB51019002D339D /* iOSBoilerplate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSBoilerplate-Bridging-Header.h"; sourceTree = "<group>"; };
+		18C36C371CB512A8002D339D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		18C36C3B1CB5138D002D339D /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = config.xml; path = ../config.xml; sourceTree = "<group>"; };
+		18C36CE51CB5140C002D339D /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		18C36CE71CB5FB33002D339D /* CordovaPluginsBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CordovaPluginsBridge.h; sourceTree = "<group>"; };
+		18C36CE81CB5FB33002D339D /* CordovaPluginsBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CordovaPluginsBridge.m; sourceTree = "<group>"; };
+		18C36CEA1CB5FD4E002D339D /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		BA44F147D579524EDEFD5005 /* Pods-iOSBoilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSBoilerplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSBoilerplate/Pods-iOSBoilerplate.release.xcconfig"; sourceTree = "<group>"; };
 		D1821FDE3B38AB5280E0DE9C /* Pods-iOSBoilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSBoilerplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSBoilerplate/Pods-iOSBoilerplate.debug.xcconfig"; sourceTree = "<group>"; };
 		DB883448BAA228506432D269 /* libPods-iOSBoilerplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSBoilerplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,11 +145,11 @@
 		18A632261C8B3ECC00FD5481 /* iOSBoilerplate */ = {
 			isa = PBXGroup;
 			children = (
+				18C36C3A1CB512BC002D339D /* Config */,
+				18C36C391CB512AE002D339D /* Resources */,
+				18C36C371CB512A8002D339D /* Main.storyboard */,
 				18A632271C8B3ECC00FD5481 /* AppDelegate.swift */,
-				18A632281C8B3ECC00FD5481 /* Assets.xcassets */,
 				18A632291C8B3ECC00FD5481 /* LaunchScreen.storyboard */,
-				18A6322B1C8B3ECC00FD5481 /* Main.storyboard */,
-				18A6322D1C8B3ECC00FD5481 /* Info.plist */,
 				18A6322E1C8B3ECC00FD5481 /* ViewController.swift */,
 			);
 			path = iOSBoilerplate;
@@ -189,6 +204,7 @@
 		18A632431C8BCEEB00FD5481 /* Widgets */ = {
 			isa = PBXGroup;
 			children = (
+				18C36B841CB4B5D2002D339D /* WebView */,
 				18A632441C8BCEEB00FD5481 /* TableGrid */,
 			);
 			path = Widgets;
@@ -224,6 +240,46 @@
 				18A6324B1C8BCF9400FD5481 /* DataStructure.playground */,
 			);
 			path = DataStructure;
+			sourceTree = "<group>";
+		};
+		18C36B841CB4B5D2002D339D /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				18C36B851CB4B5D2002D339D /* Cordova */,
+				18C36B871CB507B0002D339D /* WebViewCatalogueTableView.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		18C36B851CB4B5D2002D339D /* Cordova */ = {
+			isa = PBXGroup;
+			children = (
+				18C36C331CB50F1C002D339D /* CordovaContainer.h */,
+				18C36C341CB50F1C002D339D /* CordovaContainer.m */,
+				18C36CE71CB5FB33002D339D /* CordovaPluginsBridge.h */,
+				18C36CE81CB5FB33002D339D /* CordovaPluginsBridge.m */,
+				18C36CEA1CB5FD4E002D339D /* README */,
+			);
+			path = Cordova;
+			sourceTree = "<group>";
+		};
+		18C36C391CB512AE002D339D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18C36CE51CB5140C002D339D /* www */,
+				18A632281C8B3ECC00FD5481 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		18C36C3A1CB512BC002D339D /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				18C36C361CB51019002D339D /* iOSBoilerplate-Bridging-Header.h */,
+				18A6322D1C8B3ECC00FD5481 /* Info.plist */,
+				18C36C3B1CB5138D002D339D /* config.xml */,
+			);
+			name = Config;
 			sourceTree = "<group>";
 		};
 		204AF666767763333DE0FF4D /* Pods */ = {
@@ -350,10 +406,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C36CE61CB5140C002D339D /* www in Resources */,
 				18A632331C8B3ECC00FD5481 /* Info.plist in Resources */,
-				18A632321C8B3ECC00FD5481 /* Main.storyboard in Resources */,
 				18A632301C8B3ECC00FD5481 /* Assets.xcassets in Resources */,
+				18C36C381CB512A8002D339D /* Main.storyboard in Resources */,
 				18A632311C8B3ECC00FD5481 /* LaunchScreen.storyboard in Resources */,
+				18C36C951CB5138D002D339D /* config.xml in Resources */,
+				18C36CEB1CB5FD4E002D339D /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,9 +485,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C36CE91CB5FB33002D339D /* CordovaPluginsBridge.m in Sources */,
 				18A632341C8B3ECC00FD5481 /* ViewController.swift in Sources */,
 				18A6322F1C8B3ECC00FD5481 /* AppDelegate.swift in Sources */,
 				18A632491C8BCF4700FD5481 /* Constants.swift in Sources */,
+				18C36B881CB507B0002D339D /* WebViewCatalogueTableView.swift in Sources */,
+				18C36C351CB50F1C002D339D /* CordovaContainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,14 +532,6 @@
 				18A6322A1C8B3ECC00FD5481 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		18A6322B1C8B3ECC00FD5481 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18A6322C1C8B3ECC00FD5481 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -575,6 +629,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wx.iOSBoilerplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./iOSBoilerplate/iOSBoilerplate-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -587,6 +642,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wx.iOSBoilerplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./iOSBoilerplate/iOSBoilerplate-Bridging-Header.h";
 			};
 			name = Release;
 		};

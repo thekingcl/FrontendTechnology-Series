@@ -1,464 +1,3707 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		2C886097D5BDDE56E68560BE4D254CE5 /* Pods-iOSBoilerplate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2B6B7E94372510491A72D4D3DE67A7 /* Pods-iOSBoilerplate-dummy.m */; };
-		2DC8986A7E85A2992996CEAB5E27E064 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F48602517ECB353DCB8C98633FCAB09 /* ALView+PureLayout.m */; };
-		3F8A141AA46A9F5663409F68F7C9B834 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E956DAAFFAB936CB60D9273E05D498 /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		458505F5EF5773B6A5781F5E558FF08C /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0A907C755768715DA7F954CDC61B9E /* PureLayout-dummy.m */; };
-		63D3D0CE4F62ED437BF4C496779CCE5E /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = D10E06F10AB8CECE8141D32B75CCA4FE /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C817A3A77BC76137F93A0F5935AD893 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F545BE94C48C8AFEED462FE6F8D3597A /* NSLayoutConstraint+PureLayout.m */; };
-		88C46D433776164CCD7D92A3323F3A94 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 45945D8F3DAD605A883B94C9128AB860 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9756D3D7817188BD77D4C9A5DB12CB89 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 873FC3649F700A415796A33CE2641055 /* NSArray+PureLayout.m */; };
-		A2EE565499CD048046B5DD4DC252102A /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D7DC82AF6F6260F768473B043656411 /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C88CF1F829E37B62B528C8D8B9996A1F /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = ACF183D164AEA03A4AA2A2F5185EFE7D /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6D4F1F8C644B5043D4768244CE60310 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		E84107283DED3947DFA970C17751D2B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		F3B1BF3973EE03C50F156140A7BA81A1 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = E41D14862AA071D9F8A5E652619270AF /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		EC966E1E511B7410AD8D47748C4AB82A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2F5D687D3C1338CE7C8206C0747E8D79;
-			remoteInfo = PureLayout;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		0D130698943F179124EA06F29EC3BFAE /* Pods-iOSBoilerplate-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSBoilerplate-resources.sh"; sourceTree = "<group>"; };
-		129832CAED57495522F06699874AB5E0 /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
-		1951A12F7C46D8BBF64BC9D3F882A2EA /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		44255D979C60D29ACF6D1A815969C33D /* Pods-iOSBoilerplate-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSBoilerplate-acknowledgements.markdown"; sourceTree = "<group>"; };
-		45945D8F3DAD605A883B94C9128AB860 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
-		57E956DAAFFAB936CB60D9273E05D498 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
-		589DAE5B1A9136218960D9FB6353A472 /* libPods-iOSBoilerplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSBoilerplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F48602517ECB353DCB8C98633FCAB09 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
-		6E62B58ACB5BB5D94112036E27C4876E /* Pods-iOSBoilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSBoilerplate.release.xcconfig"; sourceTree = "<group>"; };
-		7D7DC82AF6F6260F768473B043656411 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
-		873FC3649F700A415796A33CE2641055 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
-		956988C00826DFF482E4827D9F84F804 /* Pods-iOSBoilerplate-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSBoilerplate-frameworks.sh"; sourceTree = "<group>"; };
-		ACF183D164AEA03A4AA2A2F5185EFE7D /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C2C3D04148A115155ED037FC14B5BF84 /* Pods-iOSBoilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSBoilerplate.debug.xcconfig"; sourceTree = "<group>"; };
-		CE0A907C755768715DA7F954CDC61B9E /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
-		D10E06F10AB8CECE8141D32B75CCA4FE /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
-		D27E533B5BB5CA9E7297D3A8B5F75276 /* libPureLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPureLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E41D14862AA071D9F8A5E652619270AF /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
-		EB62284EABBA28EED4AA4DC23781B21B /* Pods-iOSBoilerplate-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSBoilerplate-acknowledgements.plist"; sourceTree = "<group>"; };
-		F545BE94C48C8AFEED462FE6F8D3597A /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
-		FA2B6B7E94372510491A72D4D3DE67A7 /* Pods-iOSBoilerplate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSBoilerplate-dummy.m"; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		54CA4365D996E2ECF40DE72C9D1300A9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E84107283DED3947DFA970C17751D2B0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CAA6A5120F63FFF652E9280997A2B3E7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D6D4F1F8C644B5043D4768244CE60310 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		13F394D47927EC1440D3DC227C23D803 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				589DAE5B1A9136218960D9FB6353A472 /* libPods-iOSBoilerplate.a */,
-				D27E533B5BB5CA9E7297D3A8B5F75276 /* libPureLayout.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		48FC2F36E7849C7B16BD0074BC2785C5 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FA45A22585C0A18DE6E923C5548B1F23 /* Pods-iOSBoilerplate */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				A2FDD832DA64F35B104DD4C55A31BF8E /* Pods */,
-				13F394D47927EC1440D3DC227C23D803 /* Products */,
-				48FC2F36E7849C7B16BD0074BC2785C5 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		83F65399C3808A743CC1392CF12DD692 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1951A12F7C46D8BBF64BC9D3F882A2EA /* PureLayout.xcconfig */,
-				CE0A907C755768715DA7F954CDC61B9E /* PureLayout-dummy.m */,
-				129832CAED57495522F06699874AB5E0 /* PureLayout-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PureLayout";
-			sourceTree = "<group>";
-		};
-		A2FDD832DA64F35B104DD4C55A31BF8E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AB198DB8875A98298498BA74D26897FE /* PureLayout */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		AB198DB8875A98298498BA74D26897FE /* PureLayout */ = {
-			isa = PBXGroup;
-			children = (
-				45945D8F3DAD605A883B94C9128AB860 /* ALView+PureLayout.h */,
-				5F48602517ECB353DCB8C98633FCAB09 /* ALView+PureLayout.m */,
-				7D7DC82AF6F6260F768473B043656411 /* NSArray+PureLayout.h */,
-				873FC3649F700A415796A33CE2641055 /* NSArray+PureLayout.m */,
-				E41D14862AA071D9F8A5E652619270AF /* NSLayoutConstraint+PureLayout.h */,
-				F545BE94C48C8AFEED462FE6F8D3597A /* NSLayoutConstraint+PureLayout.m */,
-				57E956DAAFFAB936CB60D9273E05D498 /* PureLayout.h */,
-				D10E06F10AB8CECE8141D32B75CCA4FE /* PureLayout+Internal.h */,
-				ACF183D164AEA03A4AA2A2F5185EFE7D /* PureLayoutDefines.h */,
-				83F65399C3808A743CC1392CF12DD692 /* Support Files */,
-			);
-			path = PureLayout;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		FA45A22585C0A18DE6E923C5548B1F23 /* Pods-iOSBoilerplate */ = {
-			isa = PBXGroup;
-			children = (
-				44255D979C60D29ACF6D1A815969C33D /* Pods-iOSBoilerplate-acknowledgements.markdown */,
-				EB62284EABBA28EED4AA4DC23781B21B /* Pods-iOSBoilerplate-acknowledgements.plist */,
-				FA2B6B7E94372510491A72D4D3DE67A7 /* Pods-iOSBoilerplate-dummy.m */,
-				956988C00826DFF482E4827D9F84F804 /* Pods-iOSBoilerplate-frameworks.sh */,
-				0D130698943F179124EA06F29EC3BFAE /* Pods-iOSBoilerplate-resources.sh */,
-				C2C3D04148A115155ED037FC14B5BF84 /* Pods-iOSBoilerplate.debug.xcconfig */,
-				6E62B58ACB5BB5D94112036E27C4876E /* Pods-iOSBoilerplate.release.xcconfig */,
-			);
-			name = "Pods-iOSBoilerplate";
-			path = "Target Support Files/Pods-iOSBoilerplate";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		DF1A95364750077CBAE7430F0BC6C61F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				88C46D433776164CCD7D92A3323F3A94 /* ALView+PureLayout.h in Headers */,
-				A2EE565499CD048046B5DD4DC252102A /* NSArray+PureLayout.h in Headers */,
-				F3B1BF3973EE03C50F156140A7BA81A1 /* NSLayoutConstraint+PureLayout.h in Headers */,
-				63D3D0CE4F62ED437BF4C496779CCE5E /* PureLayout+Internal.h in Headers */,
-				3F8A141AA46A9F5663409F68F7C9B834 /* PureLayout.h in Headers */,
-				C88CF1F829E37B62B528C8D8B9996A1F /* PureLayoutDefines.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
-/* Begin PBXNativeTarget section */
-		2F5D687D3C1338CE7C8206C0747E8D79 /* PureLayout */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F6FD90F87675634A94F650A2380C7DC8 /* Build configuration list for PBXNativeTarget "PureLayout" */;
-			buildPhases = (
-				0761A527743DF5F4D040EE6B942869A2 /* Sources */,
-				CAA6A5120F63FFF652E9280997A2B3E7 /* Frameworks */,
-				DF1A95364750077CBAE7430F0BC6C61F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PureLayout;
-			productName = PureLayout;
-			productReference = D27E533B5BB5CA9E7297D3A8B5F75276 /* libPureLayout.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		54325FC837E892476B1CE5B3C5DC79ED /* Pods-iOSBoilerplate */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8512CAD43ABCD3583D661677A3129F08 /* Build configuration list for PBXNativeTarget "Pods-iOSBoilerplate" */;
-			buildPhases = (
-				AEB54F1C9E1CC5C3153B11802278367F /* Sources */,
-				54CA4365D996E2ECF40DE72C9D1300A9 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C876A55C85E049055322C2A39D1A413D /* PBXTargetDependency */,
-			);
-			name = "Pods-iOSBoilerplate";
-			productName = "Pods-iOSBoilerplate";
-			productReference = 589DAE5B1A9136218960D9FB6353A472 /* libPods-iOSBoilerplate.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
-			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 13F394D47927EC1440D3DC227C23D803 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				54325FC837E892476B1CE5B3C5DC79ED /* Pods-iOSBoilerplate */,
-				2F5D687D3C1338CE7C8206C0747E8D79 /* PureLayout */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		0761A527743DF5F4D040EE6B942869A2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2DC8986A7E85A2992996CEAB5E27E064 /* ALView+PureLayout.m in Sources */,
-				9756D3D7817188BD77D4C9A5DB12CB89 /* NSArray+PureLayout.m in Sources */,
-				7C817A3A77BC76137F93A0F5935AD893 /* NSLayoutConstraint+PureLayout.m in Sources */,
-				458505F5EF5773B6A5781F5E558FF08C /* PureLayout-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AEB54F1C9E1CC5C3153B11802278367F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2C886097D5BDDE56E68560BE4D254CE5 /* Pods-iOSBoilerplate-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C876A55C85E049055322C2A39D1A413D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PureLayout;
-			target = 2F5D687D3C1338CE7C8206C0747E8D79 /* PureLayout */;
-			targetProxy = EC966E1E511B7410AD8D47748C4AB82A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin XCBuildConfiguration section */
-		2CB3FD519864A985D48DE55D7707127E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E62B58ACB5BB5D94112036E27C4876E /* Pods-iOSBoilerplate.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		6A618402A7854DC2A6D6CEB65552A7D2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1951A12F7C46D8BBF64BC9D3F882A2EA /* PureLayout.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		7392A4CAB6011D1499D8CF2992696340 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1951A12F7C46D8BBF64BC9D3F882A2EA /* PureLayout.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				ONLY_ACTIVE_ARCH = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		9FD44FDDF59CC3C5C27EC84B2B21C2C0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2C3D04148A115155ED037FC14B5BF84 /* Pods-iOSBoilerplate.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8D1534490D941DCA47C62AC4314182AF /* Debug */,
-				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8512CAD43ABCD3583D661677A3129F08 /* Build configuration list for PBXNativeTarget "Pods-iOSBoilerplate" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9FD44FDDF59CC3C5C27EC84B2B21C2C0 /* Debug */,
-				2CB3FD519864A985D48DE55D7707127E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F6FD90F87675634A94F650A2380C7DC8 /* Build configuration list for PBXNativeTarget "PureLayout" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6A618402A7854DC2A6D6CEB65552A7D2 /* Debug */,
-				7392A4CAB6011D1499D8CF2992696340 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>0037D96DE3AB89E4699C9900684A376D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C2BB1F2CA072E06D7E5F3EFE99EA258F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>00689D4448C75067D84642756BB15817</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F5974932AEF276A6AAB0EC4C732BE8DD</string>
+				<string>54EC765E554095D00348DF5CD7FD040F</string>
+				<string>764965566112790BFF4EDFAE1A3DA1BF</string>
+				<string>A0BD3E758099BB0CC0E267B683F42568</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>022CB1D2709DED006B042E3E36EB4753</key>
+		<dict>
+			<key>fileRef</key>
+			<string>295F7188924CE246BEAA6D13EE116F92</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>06AC9B592CC39E6766F4D2A7311C28C3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5875CE265F82A49D60AF807D1B012EC8</string>
+				<string>9990F7CB011338106B35AF265E03700A</string>
+				<string>F3C80C230C460B48502FAA7F41E77A16</string>
+				<string>9996AB519ED826F361B70178534245C7</string>
+				<string>B7F513B8CA81B279E0F784FC8227AF0E</string>
+				<string>A852A5A686EA980C092A897D466E7D4A</string>
+				<string>6B2509A74E25BF6AE566DE7546043D51</string>
+				<string>9872BDD0C8974AA5D91201D85F608479</string>
+				<string>D55A21A5F69413AEEF2A1335CCA35C6F</string>
+				<string>5817FA4BE602859AFAC456E8D12F786D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>PureLayout</string>
+			<key>path</key>
+			<string>PureLayout</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>07E0A9B5E831A3DC02262207587C759C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVUIWebViewNavigationDelegate.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewNavigationDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>08E997837DB18BE7DE5593764C85AC43</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVUIWebViewEngine.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewEngine.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0A5FEC6A8ED615F134645FC73CA2AB19</key>
+		<dict>
+			<key>fileRef</key>
+			<string>07E0A9B5E831A3DC02262207587C759C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>0C7C813880D7C0023B9A99158B7647FC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>95E9187C6EDC39B40F2C600A2E21E6EF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0CFB743A0B8AFEEF1D3F4A42508F3019</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>8AAA4ED8D96FF44EDB2E05E73BDE21A7</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Cordova/Cordova-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>0D130698943F179124EA06F29EC3BFAE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-iOSBoilerplate-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0DFDC2C967F573E1BC319B5EB445BC85</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1CCE18BE8E3F4AB7E50C9F55D7A0F2CC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>0E719974662F473111ED76BFD5E87691</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A6B9A659849B9576E7A5CFA28C0BB372</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0F531E2209F11EDF3FFDB4BA157F1DEC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3A98730ACA850398ECCDDE62CBAF18AC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1003E5C2A01B7F9A241E4BA935C8A679</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVUserAgentUtil.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVUserAgentUtil.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>10B4DE42E9A23DDB9544B693C5F459F1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>ADA1A4351690406AF0E449920D911122</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>10CB21B04FC786C5612C3F0D6AD7A628</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>8AAA4ED8D96FF44EDB2E05E73BDE21A7</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Cordova/Cordova-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>1180A7B9E32C4B935C4DB3EF02347DF8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>54489A1B2E555B6A32D8A011E37308C5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>1214815B3BE5EB68789615DA37428A3A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2BFD5D2CC8376E2B414C28F4EB7ABB80</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>15EA7C460B31A16AAB443213C4550A56</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FDStackView.h</string>
+			<key>path</key>
+			<string>FDStackView/FDStackView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>166ADDA3ACB6361B7E140F35A2475050</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FDStackViewLayoutArrangement.m</string>
+			<key>path</key>
+			<string>FDStackView/FDStackViewLayoutArrangement.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1BAB1B3DCF24298E5AF21CED2AAF9918</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>85E6D50B80E43A1661FD6593F52668CD</string>
+				<string>C7B917161EB5E79AF4E6AD17822ED0F2</string>
+				<string>8F75C2148ABC202184241F45495750AB</string>
+				<string>F54067914311F0D4B5D8D2FAD5FA209B</string>
+				<string>D4B36585B16D07976EC84EDA59A8DA62</string>
+				<string>1D74B31251143D100B255B4F5F0F94A3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>1C715AB89C47FABB359B03894DE2D714</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DC150BFEF77E38E5AE9D548010713249</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>1CCE18BE8E3F4AB7E50C9F55D7A0F2CC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVDebug.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/CDVDebug.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1D74B31251143D100B255B4F5F0F94A3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D55A21A5F69413AEEF2A1335CCA35C6F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>1FC06CBAF849024CFD8F91656311B0E2</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>6EEBED224E36A307D85D3DCA5A71180B</string>
+				<string>10B4DE42E9A23DDB9544B693C5F459F1</string>
+				<string>A92514E31324BC60816B9A2A70EB168A</string>
+				<string>0C7C813880D7C0023B9A99158B7647FC</string>
+				<string>5FB0AF4F4D2485904C225941A7B7554D</string>
+				<string>022CB1D2709DED006B042E3E36EB4753</string>
+				<string>56DE3332A37582D20F45AB8FF27EFD57</string>
+				<string>52294CA7969B40AC528DB1E549A3AF9B</string>
+				<string>54F02F2697BEEAF076CFC72E81A82D14</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>20362490BA32A695A9082CE46255880B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FDGapLayoutGuide.m</string>
+			<key>path</key>
+			<string>FDStackView/FDGapLayoutGuide.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>20B56609144CE204DFA8221F742B2D76</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4641B938E570E5962AEC46D9C6A6E9EA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>20EBF3722413D8D87B08362D511117F0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5CA8E96DFACBC13B4EE71CAAC29C5B01</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>21575C2F75C4319DE2B2271F24B7245A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9660F5E3B50DD7A6DFC22E1C22759110</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>239DC36D1489CC70FF0B3DB2D37EBD6E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FDStackView-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>24BB5BDE8B6E05651F5A4B9216F1645D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVPlugin+Resources.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVPlugin+Resources.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>25828150F6A9DDE33A85E48265DD7585</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>4D37A63C56B54930128A551E8A7312AE</string>
+				<string>0037D96DE3AB89E4699C9900684A376D</string>
+				<string>45CD8B73239D298491885B050D1CF704</string>
+				<string>1214815B3BE5EB68789615DA37428A3A</string>
+				<string>57C1929C394E96A0377B766B6CF10077</string>
+				<string>58E4647033D96FFE3FC36DEED22B5D8D</string>
+				<string>8E4A6AB8A8E74EA2E9B209993E9510E3</string>
+				<string>E9C8CBDA2768A3DF0F9F4D6AA158535E</string>
+				<string>21575C2F75C4319DE2B2271F24B7245A</string>
+				<string>0F531E2209F11EDF3FFDB4BA157F1DEC</string>
+				<string>4BE12A5153927601314BDD754479CE47</string>
+				<string>B839C921B3F57B12C0C29C91C52A7226</string>
+				<string>5CAF4436D38342AC027578791613CE63</string>
+				<string>9ED2E347398B6CD8D39E28E089704F61</string>
+				<string>0E719974662F473111ED76BFD5E87691</string>
+				<string>F1521306039759AA580D0CEE4E462A94</string>
+				<string>A17B587584BA077651391C3EC288EE77</string>
+				<string>D92D38A9CEBF930067A1861C2379DD7B</string>
+				<string>5AAA43D4EB057967255F67DC240E8308</string>
+				<string>20EBF3722413D8D87B08362D511117F0</string>
+				<string>8FA1B6293BF2A4EACDCDE8375EA37067</string>
+				<string>48DB104B7F61AE5FB9576A2827C0E753</string>
+				<string>6A4E0C007FBFCD6F2FCB848EB4C5D9EE</string>
+				<string>BC6D3256ECC3237667B949EE89F45854</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>25CBE000E00749ABCFF08B18C0AB71A6</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>0CFB743A0B8AFEEF1D3F4A42508F3019</string>
+				<string>10CB21B04FC786C5612C3F0D6AD7A628</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>25F25E79DE3693632361D0DCD5FE728F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>601EFDA59771F378B5FA3961B2080B23</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>295F7188924CE246BEAA6D13EE116F92</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FDStackViewDistributionLayoutArrangement.m</string>
+			<key>path</key>
+			<string>FDStackView/FDStackViewDistributionLayoutArrangement.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2969CCA1BAECC3A9DA7F1A3F03ABB7E2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVTimer.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVTimer.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2BFD5D2CC8376E2B414C28F4EB7ABB80</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVConfigParser.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVConfigParser.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2C102A5A22412BF9B2FD04E428DBD919</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVCommandQueue.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVCommandQueue.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>8D1534490D941DCA47C62AC4314182AF</string>
+				<string>C5A18280E9321A9268D1C80B7DA43967</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>2DC86ADEF13F750BCE61B65AA4D823ED</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>C30A2FE4E19459D24A2DCAC12AA80B54</string>
+			<key>remoteInfo</key>
+			<string>Cordova</string>
+		</dict>
+		<key>2FC4576DBA905EDB0320FD3BF405F151</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVAppDelegate.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVAppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>31CE3B2A6E707BB310048BAD79323737</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B32BBB4D106A083F85931F75346C8EBD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>32786350F3B8C873387CBCBA007F7ED0</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>74A7F6C59BFF928C7F77071371EC7635</string>
+				<string>E50D7DC315065E93D3B54266B59C872E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>32954D2F5E5693D48B09CCB9BF403A68</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>32786350F3B8C873387CBCBA007F7ED0</string>
+			<key>buildPhases</key>
+			<array>
+				<string>FD31DE9D9DAD4D670BFB020F167E4206</string>
+				<string>77E4164CB584ACB6DF36D45E6838867C</string>
+				<string>1BAB1B3DCF24298E5AF21CED2AAF9918</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>PureLayout</string>
+			<key>productName</key>
+			<string>PureLayout</string>
+			<key>productReference</key>
+			<string>A0BD3E758099BB0CC0E267B683F42568</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>329C00542D743493F4A4F98C074E2686</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVUserAgentUtil.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVUserAgentUtil.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>331E83E3B943A3FD5BA20DA28276A6FB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>FDStackView-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3467F37918D82143DA9DC4AF728DFFC1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVWebViewEngineProtocol.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVWebViewEngineProtocol.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>34AD557CBD806749E6FE330082FDEAB1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVPluginResult.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVPluginResult.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3718DEE7F32BA03AE8DA885E1F03FA14</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EB0F6BF4EBBDB6B11ED75F5FCFDB7FAA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3A98730ACA850398ECCDDE62CBAF18AC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVLocalStorage.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/Plugins/CDVLocalStorage/CDVLocalStorage.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3ACA1C41736103EC189EA5EE76E419C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E4255D18624405741FD84A406B267DCC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>3D21AA92799CCF3A9A61A7559A2BAFB0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVCommandQueue.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVCommandQueue.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3D74988705F904E27DA0941EB032D6E3</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>32954D2F5E5693D48B09CCB9BF403A68</string>
+			<key>remoteInfo</key>
+			<string>PureLayout</string>
+		</dict>
+		<key>3DD49299BACE3592DA7000BC6863E353</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVCommandDelegate.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVCommandDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3FDFB8C3F08C1110418B199BFCC0AA54</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8F6A2F13DAD27A7FBCC7180A935F6BEE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>40504EB57B097055AABF9660833E7950</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A7423FBD70F00D7BA6584D190BC97E91</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>44255D979C60D29ACF6D1A815969C33D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-iOSBoilerplate-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>45CD8B73239D298491885B050D1CF704</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2C102A5A22412BF9B2FD04E428DBD919</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4641B938E570E5962AEC46D9C6A6E9EA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>ED99DAF4F2495A0B8A13158125B249CE</string>
+				<string>8F6A2F13DAD27A7FBCC7180A935F6BEE</string>
+				<string>86F809A8142D32AC6AEEAB9BF5A27584</string>
+				<string>EB0F6BF4EBBDB6B11ED75F5FCFDB7FAA</string>
+				<string>78FF6A7C9C31B0A3CCF8806AEA5792E2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4786AE5B468D010989D61D9BFA8D6B36</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PureLayout-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4833B20B899D76D728A14952823BF840</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVTimer.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVTimer.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>48DB104B7F61AE5FB9576A2827C0E753</key>
+		<dict>
+			<key>fileRef</key>
+			<string>89BD7D3B33B45EE1C1CF3A94723EBEFA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>48FC2F36E7849C7B16BD0074BC2785C5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>FA45A22585C0A18DE6E923C5548B1F23</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4BE12A5153927601314BDD754479CE47</key>
+		<dict>
+			<key>fileRef</key>
+			<string>24BB5BDE8B6E05651F5A4B9216F1645D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4CE10FC34905A89BDE0A80543E5867EC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9990F7CB011338106B35AF265E03700A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4D37A63C56B54930128A551E8A7312AE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>81A9386B3EE36EECF65205115EF56935</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5004E4B10542B9D6DC97301A4821C58D</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>CABCC4C3530E122BCD56AEC6697291AF</string>
+			<key>remoteInfo</key>
+			<string>FDStackView</string>
+		</dict>
+		<key>50616E1FECCB1A09731F95CF4297FF8F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F638C77E18F757F57EE4D32851D9A26C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>509DA0C998F97DAEBF035CBA5C8B97D9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVWhitelist.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVWhitelist.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5201A55D2442F264A1CE2F931C36C483</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9B781C0E93796457F9F2CE90CBEE7B22</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>52294CA7969B40AC528DB1E549A3AF9B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>166ADDA3ACB6361B7E140F35A2475050</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>530E13E4A6D29F3563E0D8411E9D25BF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>99D987415764E98DA05AA0EEE8500435</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>54489A1B2E555B6A32D8A011E37308C5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVUIWebViewDelegate.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>54EC765E554095D00348DF5CD7FD040F</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libFDStackView.a</string>
+			<key>path</key>
+			<string>libFDStackView.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>54F02F2697BEEAF076CFC72E81A82D14</key>
+		<dict>
+			<key>fileRef</key>
+			<string>57009A73A31FF135FFE3A1DFE02FA93C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>560889A8DA13D84B0051E7BD5599A8A4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVIntentAndNavigationFilter.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/Plugins/CDVIntentAndNavigationFilter/CDVIntentAndNavigationFilter.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>566869411BEF60BED3BF55921CBFFC78</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3D21AA92799CCF3A9A61A7559A2BAFB0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>56DE3332A37582D20F45AB8FF27EFD57</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7566EC0A892B17D6A80EB15C106E6A72</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>57009A73A31FF135FFE3A1DFE02FA93C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FDTransformLayer.m</string>
+			<key>path</key>
+			<string>FDStackView/FDTransformLayer.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>57C1929C394E96A0377B766B6CF10077</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7C948D14982B6A1F4B1D1E8BE8DEDF26</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5817FA4BE602859AFAC456E8D12F786D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CB42FC8C02C6D34A8EBBEAC3E692A9FD</string>
+				<string>601EFDA59771F378B5FA3961B2080B23</string>
+				<string>4786AE5B468D010989D61D9BFA8D6B36</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/PureLayout</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5875CE265F82A49D60AF807D1B012EC8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ALView+PureLayout.h</string>
+			<key>path</key>
+			<string>PureLayout/PureLayout/ALView+PureLayout.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>58E4647033D96FFE3FC36DEED22B5D8D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8D59BFB5BE78956F21E7350F82020A8F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>593C396D475BBF682AC1BBF9677A1058</key>
+		<dict>
+			<key>fileRef</key>
+			<string>ECF3A012AEBC4FDDFD48808046147055</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>5AAA43D4EB057967255F67DC240E8308</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1003E5C2A01B7F9A241E4BA935C8A679</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5AE6A439F252D3C266105DE55979F657</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EB0F6BF4EBBDB6B11ED75F5FCFDB7FAA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5CA8E96DFACBC13B4EE71CAAC29C5B01</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVViewController.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5CAF4436D38342AC027578791613CE63</key>
+		<dict>
+			<key>fileRef</key>
+			<string>34AD557CBD806749E6FE330082FDEAB1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5E562C03D113C30E2C6873896B62269D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>78FF6A7C9C31B0A3CCF8806AEA5792E2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5E84C895CC6E3C3F051B51748EB32643</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>FDStackView</string>
+			<key>target</key>
+			<string>CABCC4C3530E122BCD56AEC6697291AF</string>
+			<key>targetProxy</key>
+			<string>5004E4B10542B9D6DC97301A4821C58D</string>
+		</dict>
+		<key>5EA968B5120D7228293C6343C00926FA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CC157CA008C61FDCC40F1A40AC6EB3D4</string>
+				<string>A7B9D68226F53B4D3D0F48F5EE494F0B</string>
+				<string>06AC9B592CC39E6766F4D2A7311C28C3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5FAFD84564F2EB8A015BD8B989B8FB5F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>PureLayout</string>
+			<key>target</key>
+			<string>32954D2F5E5693D48B09CCB9BF403A68</string>
+			<key>targetProxy</key>
+			<string>3D74988705F904E27DA0941EB032D6E3</string>
+		</dict>
+		<key>5FB0AF4F4D2485904C225941A7B7554D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EE1404439F83CEA8C153FC7498EEBF27</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>601EFDA59771F378B5FA3961B2080B23</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PureLayout-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>617FD77AC82E29A59157E646853D8824</key>
+		<dict>
+			<key>fileRef</key>
+			<string>62BEAA5CA55B90CDAE33F767571029C7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>62BEAA5CA55B90CDAE33F767571029C7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVPlugin+Resources.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVPlugin+Resources.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>64223D6014732531458D5146D7DFA240</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>7E57A682C635303D4F42DB254C4DDACE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6A4E0C007FBFCD6F2FCB848EB4C5D9EE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E222F0E5EE97C44E68BCD0009592FFF7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6B2509A74E25BF6AE566DE7546043D51</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>PureLayout.h</string>
+			<key>path</key>
+			<string>PureLayout/PureLayout/PureLayout.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6C335B835785E365EF086160AE985979</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>711FCD2008470B8FC6EA1D3AA0D38565</string>
+				<string>8CE4960A82F35FB219B9E77686EC76FB</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>6E62B58ACB5BB5D94112036E27C4876E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-iOSBoilerplate.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6E767BEB08592BA5A107DD72E5E8D429</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>FDStackView.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6EEBED224E36A307D85D3DCA5A71180B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>20362490BA32A695A9082CE46255880B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>711FCD2008470B8FC6EA1D3AA0D38565</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>C2C3D04148A115155ED037FC14B5BF84</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>72A7527BF0B44128453E09B36068B201</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FDStackViewDistributionLayoutArrangement.h</string>
+			<key>path</key>
+			<string>FDStackView/FDStackViewDistributionLayoutArrangement.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>737AF7D54B96247CAD0DC813035B418F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>530E13E4A6D29F3563E0D8411E9D25BF</string>
+				<string>80D817BC7D22F18996C7EA096C715896</string>
+				<string>B9C41EA3154F4DEA01B3C2E852DC6BC9</string>
+				<string>50616E1FECCB1A09731F95CF4297FF8F</string>
+				<string>CCE87F3BE8F379F0F64A7C3A2DDA8016</string>
+				<string>DD44B81CFA55773AEF914D26A34DB11D</string>
+				<string>566869411BEF60BED3BF55921CBFFC78</string>
+				<string>9AA1C56907C52F64107218AFD726BAA9</string>
+				<string>0DFDC2C967F573E1BC319B5EB445BC85</string>
+				<string>EE33AD56BEB6B612F750A407EC806838</string>
+				<string>A304F25887E2166A991E52495459E7FA</string>
+				<string>B116D8AFFDA9536ABD5A9C65916340FD</string>
+				<string>31CE3B2A6E707BB310048BAD79323737</string>
+				<string>593C396D475BBF682AC1BBF9677A1058</string>
+				<string>5201A55D2442F264A1CE2F931C36C483</string>
+				<string>C5B1DC0EBE5FAC5B5028C9783175FE7F</string>
+				<string>617FD77AC82E29A59157E646853D8824</string>
+				<string>ABE524CA5BAB887B71B312F687D91584</string>
+				<string>E43B77BAC8AB3BC221FEC35A960F8C63</string>
+				<string>D4D51C0B0559C9943738DBFA4263CFC5</string>
+				<string>76F4A7524CCC7087B9E69AFD0B72EAFA</string>
+				<string>1180A7B9E32C4B935C4DB3EF02347DF8</string>
+				<string>1C715AB89C47FABB359B03894DE2D714</string>
+				<string>0A5FEC6A8ED615F134645FC73CA2AB19</string>
+				<string>C093F85370593E59C6897E0C6B2CBBB8</string>
+				<string>A0145B1FA4DCA715BA208EA5915ADE3C</string>
+				<string>8FF66B5E05FBDBF73FDAA1F93D74BE11</string>
+				<string>D3B00DAF4D5E3354D21E4D190689B916</string>
+				<string>EFA6747B6101B84E47B54D0795DCEAA4</string>
+				<string>76C4FAA8FE060BCEAC6EC253AAF46936</string>
+				<string>3ACA1C41736103EC189EA5EE76E419C1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>73F595711CED5B3EC23AC80E02ABAE03</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVViewController.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>74602A8720657A052A306D61DDE04C16</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVUIWebViewNavigationDelegate.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewNavigationDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>74A7F6C59BFF928C7F77071371EC7635</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>CB42FC8C02C6D34A8EBBEAC3E692A9FD</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/PureLayout/PureLayout-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>7566EC0A892B17D6A80EB15C106E6A72</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FDStackViewExtensions.m</string>
+			<key>path</key>
+			<string>FDStackView/FDStackViewExtensions.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>764965566112790BFF4EDFAE1A3DA1BF</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods-iOSBoilerplate.a</string>
+			<key>path</key>
+			<string>libPods-iOSBoilerplate.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>76C4FAA8FE060BCEAC6EC253AAF46936</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DE0959AA7B8EF8B5AEA4A9E52814D98A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>76F4A7524CCC7087B9E69AFD0B72EAFA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2969CCA1BAECC3A9DA7F1A3F03ABB7E2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>77823B20695F96ECDD6D14A4DDE4081D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FDStackViewLayoutArrangement.h</string>
+			<key>path</key>
+			<string>FDStackView/FDStackViewLayoutArrangement.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>77E4164CB584ACB6DF36D45E6838867C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>5AE6A439F252D3C266105DE55979F657</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>78FF6A7C9C31B0A3CCF8806AEA5792E2</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>MobileCoreServices.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/MobileCoreServices.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>7C948D14982B6A1F4B1D1E8BE8DEDF26</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVGestureHandler.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/Plugins/CDVGestureHandler/CDVGestureHandler.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DB346D0F39D3F0E887471402A8071AB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
+				<string>20B56609144CE204DFA8221F742B2D76</string>
+				<string>5EA968B5120D7228293C6343C00926FA</string>
+				<string>00689D4448C75067D84642756BB15817</string>
+				<string>48FC2F36E7849C7B16BD0074BC2785C5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7E57A682C635303D4F42DB254C4DDACE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EB0F6BF4EBBDB6B11ED75F5FCFDB7FAA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>80D817BC7D22F18996C7EA096C715896</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2FC4576DBA905EDB0320FD3BF405F151</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>81A9386B3EE36EECF65205115EF56935</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVAppDelegate.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVAppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>839C8645A2962A7C16BAA274990344CB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EB0F6BF4EBBDB6B11ED75F5FCFDB7FAA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8416C0F64BF9BA2FA0D0DC050096BEE2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A6B18F8F0861D3A5FA7BF421B026D8DD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>85E6D50B80E43A1661FD6593F52668CD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5875CE265F82A49D60AF807D1B012EC8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>86F809A8142D32AC6AEEAB9BF5A27584</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreLocation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreLocation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>871A5F56215303A2A61BC8D0AB6E4353</key>
+		<dict>
+			<key>fileRef</key>
+			<string>ED99DAF4F2495A0B8A13158125B249CE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>89BD7D3B33B45EE1C1CF3A94723EBEFA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Cordova-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8AAA4ED8D96FF44EDB2E05E73BDE21A7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Cordova.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8CE4960A82F35FB219B9E77686EC76FB</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>6E62B58ACB5BB5D94112036E27C4876E</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>8D1534490D941DCA47C62AC4314182AF</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>SYMROOT</key>
+				<string>${SRCROOT}/../build</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>8D59BFB5BE78956F21E7350F82020A8F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVHandleOpenURL.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/Plugins/CDVHandleOpenURL/CDVHandleOpenURL.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8E4A6AB8A8E74EA2E9B209993E9510E3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E3D94CA5579CC2AFD6C7D869E4B02F31</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8ED657551103A91898E78E42EFF34603</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Cordova-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8F6A2F13DAD27A7FBCC7180A935F6BEE</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>AVFoundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/AVFoundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>8F75C2148ABC202184241F45495750AB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B7F513B8CA81B279E0F784FC8227AF0E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>8FA1B6293BF2A4EACDCDE8375EA37067</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BD559A5669928534E86DE811F71B6594</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8FF66B5E05FBDBF73FDAA1F93D74BE11</key>
+		<dict>
+			<key>fileRef</key>
+			<string>73F595711CED5B3EC23AC80E02ABAE03</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>956988C00826DFF482E4827D9F84F804</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-iOSBoilerplate-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>95AAC1583BB18B2D1BA815391FE010C7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSMutableArray+QueueAdditions.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/NSMutableArray+QueueAdditions.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>95E9187C6EDC39B40F2C600A2E21E6EF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FDStackView.m</string>
+			<key>path</key>
+			<string>FDStackView/FDStackView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9660F5E3B50DD7A6DFC22E1C22759110</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVJSON_private.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/CDVJSON_private.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>973FD1ABBBC7FDE3676E36D461C50F73</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>3718DEE7F32BA03AE8DA885E1F03FA14</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>985548B4CCEFDB32C8616F835C5CF615</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9996AB519ED826F361B70178534245C7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9872BDD0C8974AA5D91201D85F608479</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>PureLayout+Internal.h</string>
+			<key>path</key>
+			<string>PureLayout/PureLayout/PureLayout+Internal.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>989F2708C56B4690FED0FADA1F5AF4CF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVPlugin+Private.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/CDVPlugin+Private.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9990F7CB011338106B35AF265E03700A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>ALView+PureLayout.m</string>
+			<key>path</key>
+			<string>PureLayout/PureLayout/ALView+PureLayout.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9996AB519ED826F361B70178534245C7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSArray+PureLayout.m</string>
+			<key>path</key>
+			<string>PureLayout/PureLayout/NSArray+PureLayout.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>99D987415764E98DA05AA0EEE8500435</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDV.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDV.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9AA1C56907C52F64107218AFD726BAA9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BA9643EB72E125DA0A1E95882D95584A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>9B781C0E93796457F9F2CE90CBEE7B22</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVLocalStorage.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/Plugins/CDVLocalStorage/CDVLocalStorage.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9CA4F6CE3E7870F94B301709F59981B3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVURLProtocol.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVURLProtocol.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9ED2E347398B6CD8D39E28E089704F61</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4833B20B899D76D728A14952823BF840</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A0145B1FA4DCA715BA208EA5915ADE3C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>329C00542D743493F4A4F98C074E2686</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>A0BD3E758099BB0CC0E267B683F42568</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPureLayout.a</string>
+			<key>path</key>
+			<string>libPureLayout.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>A1368C13B9E9D339FF609637E118D617</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVAvailability.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVAvailability.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A17B587584BA077651391C3EC288EE77</key>
+		<dict>
+			<key>fileRef</key>
+			<string>74602A8720657A052A306D61DDE04C16</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A304F25887E2166A991E52495459E7FA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D5118BF28A803825F7A1B6B44B9A6871</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>A48C7D4C0631F561A819C0A1FDA331A1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVPluginResult.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVPluginResult.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A5D5B07625107CF40CBFBE44D3012D9A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>72A7527BF0B44128453E09B36068B201</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>A6B18F8F0861D3A5FA7BF421B026D8DD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FDLayoutSpacer.h</string>
+			<key>path</key>
+			<string>FDStackView/FDLayoutSpacer.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A6B9A659849B9576E7A5CFA28C0BB372</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVUIWebViewDelegate.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A7423FBD70F00D7BA6584D190BC97E91</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FDTransformLayer.h</string>
+			<key>path</key>
+			<string>FDStackView/FDTransformLayer.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A7B9D68226F53B4D3D0F48F5EE494F0B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EF90978FE989D5ACAD4171AEDC34DDF9</string>
+				<string>20362490BA32A695A9082CE46255880B</string>
+				<string>A6B18F8F0861D3A5FA7BF421B026D8DD</string>
+				<string>ADA1A4351690406AF0E449920D911122</string>
+				<string>15EA7C460B31A16AAB443213C4550A56</string>
+				<string>95E9187C6EDC39B40F2C600A2E21E6EF</string>
+				<string>CC95181CD723F72BD2B8E62764B2E0DF</string>
+				<string>EE1404439F83CEA8C153FC7498EEBF27</string>
+				<string>72A7527BF0B44128453E09B36068B201</string>
+				<string>295F7188924CE246BEAA6D13EE116F92</string>
+				<string>F1C4B2F0E739436E8CE815F67B9E638F</string>
+				<string>7566EC0A892B17D6A80EB15C106E6A72</string>
+				<string>77823B20695F96ECDD6D14A4DDE4081D</string>
+				<string>166ADDA3ACB6361B7E140F35A2475050</string>
+				<string>A7423FBD70F00D7BA6584D190BC97E91</string>
+				<string>57009A73A31FF135FFE3A1DFE02FA93C</string>
+				<string>ADB4B390E79E47EE5F4F6A0AB44A8C72</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>FDStackView</string>
+			<key>path</key>
+			<string>FDStackView</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A852A5A686EA980C092A897D466E7D4A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSLayoutConstraint+PureLayout.m</string>
+			<key>path</key>
+			<string>PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A92514E31324BC60816B9A2A70EB168A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>331E83E3B943A3FD5BA20DA28276A6FB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>ABE524CA5BAB887B71B312F687D91584</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EBEE45D36AE5C8509FA91C1E6BEB391B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>ADA1A4351690406AF0E449920D911122</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FDLayoutSpacer.m</string>
+			<key>path</key>
+			<string>FDStackView/FDLayoutSpacer.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ADB4B390E79E47EE5F4F6A0AB44A8C72</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6E767BEB08592BA5A107DD72E5E8D429</string>
+				<string>331E83E3B943A3FD5BA20DA28276A6FB</string>
+				<string>239DC36D1489CC70FF0B3DB2D37EBD6E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/FDStackView</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B116D8AFFDA9536ABD5A9C65916340FD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>560889A8DA13D84B0051E7BD5599A8A4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>B18D5AFFEC94DA3F5B8F55321916816E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CC95181CD723F72BD2B8E62764B2E0DF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>B32BBB4D106A083F85931F75346C8EBD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVInvokedUrlCommand.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVInvokedUrlCommand.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B4019CBDA4688D370BFB50A370572C04</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVScreenOrientationDelegate.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVScreenOrientationDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B749CF5339EA7EB5B19D6C1475253ECE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVCommandDelegateImpl.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVCommandDelegateImpl.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B7C135A1A7828A02707310F11E72D01C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F1C4B2F0E739436E8CE815F67B9E638F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>B7F513B8CA81B279E0F784FC8227AF0E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSLayoutConstraint+PureLayout.h</string>
+			<key>path</key>
+			<string>PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B839C921B3F57B12C0C29C91C52A7226</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D103B9173BF0B5E685D67F5B8888E6B0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B8DB52777577A868D48464E01492D65D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EF90978FE989D5ACAD4171AEDC34DDF9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>B959A194159FC48620F41366702CC02D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVURLProtocol.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVURLProtocol.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B9C41EA3154F4DEA01B3C2E852DC6BC9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A1368C13B9E9D339FF609637E118D617</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>BA9643EB72E125DA0A1E95882D95584A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVConfigParser.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVConfigParser.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BB40A092703D8B3E2FCA55FA30D3FF9C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A852A5A686EA980C092A897D466E7D4A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BC6D3256ECC3237667B949EE89F45854</key>
+		<dict>
+			<key>fileRef</key>
+			<string>95AAC1583BB18B2D1BA815391FE010C7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BD559A5669928534E86DE811F71B6594</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVWhitelist.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVWhitelist.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C093F85370593E59C6897E0C6B2CBBB8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B959A194159FC48620F41366702CC02D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>C2BB1F2CA072E06D7E5F3EFE99EA258F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVCommandDelegateImpl.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVCommandDelegateImpl.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C2C3D04148A115155ED037FC14B5BF84</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-iOSBoilerplate.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C30A2FE4E19459D24A2DCAC12AA80B54</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>25CBE000E00749ABCFF08B18C0AB71A6</string>
+			<key>buildPhases</key>
+			<array>
+				<string>25828150F6A9DDE33A85E48265DD7585</string>
+				<string>EFAE4591DFB624E1306D9C56FBEEFDEA</string>
+				<string>737AF7D54B96247CAD0DC813035B418F</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Cordova</string>
+			<key>productName</key>
+			<string>Cordova</string>
+			<key>productReference</key>
+			<string>F5974932AEF276A6AAB0EC4C732BE8DD</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>C3AD030BBE243132C059F708B4DCB9D2</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8AAA4ED8D96FF44EDB2E05E73BDE21A7</string>
+				<string>89BD7D3B33B45EE1C1CF3A94723EBEFA</string>
+				<string>8ED657551103A91898E78E42EFF34603</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/Cordova</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5A18280E9321A9268D1C80B7DA43967</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>RELEASE=1</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>SYMROOT</key>
+				<string>${SRCROOT}/../build</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>C5B1DC0EBE5FAC5B5028C9783175FE7F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>989F2708C56B4690FED0FADA1F5AF4CF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>C6996D21C563C7B0E57884882B2C1D8A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVInvokedUrlCommand.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVInvokedUrlCommand.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C7B917161EB5E79AF4E6AD17822ED0F2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F3C80C230C460B48502FAA7F41E77A16</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CABCC4C3530E122BCD56AEC6697291AF</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>EEE8A6985C286158B27AA9B4832EE10F</string>
+			<key>buildPhases</key>
+			<array>
+				<string>1FC06CBAF849024CFD8F91656311B0E2</string>
+				<string>64223D6014732531458D5146D7DFA240</string>
+				<string>E3DC421D76C6935381701F48CFC2FF81</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>FDStackView</string>
+			<key>productName</key>
+			<string>FDStackView</string>
+			<key>productReference</key>
+			<string>54EC765E554095D00348DF5CD7FD040F</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>CB42FC8C02C6D34A8EBBEAC3E692A9FD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>PureLayout.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC157CA008C61FDCC40F1A40AC6EB3D4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>99D987415764E98DA05AA0EEE8500435</string>
+				<string>2FC4576DBA905EDB0320FD3BF405F151</string>
+				<string>81A9386B3EE36EECF65205115EF56935</string>
+				<string>A1368C13B9E9D339FF609637E118D617</string>
+				<string>F638C77E18F757F57EE4D32851D9A26C</string>
+				<string>3DD49299BACE3592DA7000BC6863E353</string>
+				<string>B749CF5339EA7EB5B19D6C1475253ECE</string>
+				<string>C2BB1F2CA072E06D7E5F3EFE99EA258F</string>
+				<string>3D21AA92799CCF3A9A61A7559A2BAFB0</string>
+				<string>2C102A5A22412BF9B2FD04E428DBD919</string>
+				<string>BA9643EB72E125DA0A1E95882D95584A</string>
+				<string>2BFD5D2CC8376E2B414C28F4EB7ABB80</string>
+				<string>1CCE18BE8E3F4AB7E50C9F55D7A0F2CC</string>
+				<string>EED2787265F2A11470979804CA65C867</string>
+				<string>7C948D14982B6A1F4B1D1E8BE8DEDF26</string>
+				<string>D5118BF28A803825F7A1B6B44B9A6871</string>
+				<string>8D59BFB5BE78956F21E7350F82020A8F</string>
+				<string>560889A8DA13D84B0051E7BD5599A8A4</string>
+				<string>E3D94CA5579CC2AFD6C7D869E4B02F31</string>
+				<string>B32BBB4D106A083F85931F75346C8EBD</string>
+				<string>C6996D21C563C7B0E57884882B2C1D8A</string>
+				<string>ECF3A012AEBC4FDDFD48808046147055</string>
+				<string>9660F5E3B50DD7A6DFC22E1C22759110</string>
+				<string>9B781C0E93796457F9F2CE90CBEE7B22</string>
+				<string>3A98730ACA850398ECCDDE62CBAF18AC</string>
+				<string>EBEE45D36AE5C8509FA91C1E6BEB391B</string>
+				<string>D103B9173BF0B5E685D67F5B8888E6B0</string>
+				<string>989F2708C56B4690FED0FADA1F5AF4CF</string>
+				<string>62BEAA5CA55B90CDAE33F767571029C7</string>
+				<string>24BB5BDE8B6E05651F5A4B9216F1645D</string>
+				<string>A48C7D4C0631F561A819C0A1FDA331A1</string>
+				<string>34AD557CBD806749E6FE330082FDEAB1</string>
+				<string>B4019CBDA4688D370BFB50A370572C04</string>
+				<string>2969CCA1BAECC3A9DA7F1A3F03ABB7E2</string>
+				<string>4833B20B899D76D728A14952823BF840</string>
+				<string>54489A1B2E555B6A32D8A011E37308C5</string>
+				<string>A6B9A659849B9576E7A5CFA28C0BB372</string>
+				<string>DC150BFEF77E38E5AE9D548010713249</string>
+				<string>08E997837DB18BE7DE5593764C85AC43</string>
+				<string>07E0A9B5E831A3DC02262207587C759C</string>
+				<string>74602A8720657A052A306D61DDE04C16</string>
+				<string>B959A194159FC48620F41366702CC02D</string>
+				<string>9CA4F6CE3E7870F94B301709F59981B3</string>
+				<string>329C00542D743493F4A4F98C074E2686</string>
+				<string>1003E5C2A01B7F9A241E4BA935C8A679</string>
+				<string>73F595711CED5B3EC23AC80E02ABAE03</string>
+				<string>5CA8E96DFACBC13B4EE71CAAC29C5B01</string>
+				<string>3467F37918D82143DA9DC4AF728DFFC1</string>
+				<string>509DA0C998F97DAEBF035CBA5C8B97D9</string>
+				<string>BD559A5669928534E86DE811F71B6594</string>
+				<string>DE0959AA7B8EF8B5AEA4A9E52814D98A</string>
+				<string>E222F0E5EE97C44E68BCD0009592FFF7</string>
+				<string>E4255D18624405741FD84A406B267DCC</string>
+				<string>95AAC1583BB18B2D1BA815391FE010C7</string>
+				<string>C3AD030BBE243132C059F708B4DCB9D2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Cordova</string>
+			<key>path</key>
+			<string>Cordova</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC95181CD723F72BD2B8E62764B2E0DF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FDStackViewAlignmentLayoutArrangement.h</string>
+			<key>path</key>
+			<string>FDStackView/FDStackViewAlignmentLayoutArrangement.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CCE87F3BE8F379F0F64A7C3A2DDA8016</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3DD49299BACE3592DA7000BC6863E353</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CF677F424A23E3723A3CE4432AE224F5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FA2B6B7E94372510491A72D4D3DE67A7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D103B9173BF0B5E685D67F5B8888E6B0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVPlugin.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVPlugin.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D272E997CDE2117B7F151B3271F09457</key>
+		<dict>
+			<key>fileRef</key>
+			<string>86F809A8142D32AC6AEEAB9BF5A27584</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D3B00DAF4D5E3354D21E4D190689B916</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3467F37918D82143DA9DC4AF728DFFC1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>D41D8CD98F00B204E9800998ECF8427E</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastSwiftUpdateCheck</key>
+				<string>0700</string>
+				<key>LastUpgradeCheck</key>
+				<string>0700</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>7DB346D0F39D3F0E887471402A8071AB</string>
+			<key>productRefGroup</key>
+			<string>00689D4448C75067D84642756BB15817</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>C30A2FE4E19459D24A2DCAC12AA80B54</string>
+				<string>CABCC4C3530E122BCD56AEC6697291AF</string>
+				<string>D8C2FA22A8CDBC09D867526F82D5D1AE</string>
+				<string>32954D2F5E5693D48B09CCB9BF403A68</string>
+			</array>
+		</dict>
+		<key>D4B36585B16D07976EC84EDA59A8DA62</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6B2509A74E25BF6AE566DE7546043D51</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>D4D51C0B0559C9943738DBFA4263CFC5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B4019CBDA4688D370BFB50A370572C04</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>D5118BF28A803825F7A1B6B44B9A6871</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVHandleOpenURL.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/Plugins/CDVHandleOpenURL/CDVHandleOpenURL.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D55A21A5F69413AEEF2A1335CCA35C6F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>PureLayoutDefines.h</string>
+			<key>path</key>
+			<string>PureLayout/PureLayout/PureLayoutDefines.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D8C2FA22A8CDBC09D867526F82D5D1AE</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>6C335B835785E365EF086160AE985979</string>
+			<key>buildPhases</key>
+			<array>
+				<string>FE8E9AEEB441B4EE230CD68DE52AEE7A</string>
+				<string>973FD1ABBBC7FDE3676E36D461C50F73</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>FBE15AF85841105654F244200689E789</string>
+				<string>5E84C895CC6E3C3F051B51748EB32643</string>
+				<string>5FAFD84564F2EB8A015BD8B989B8FB5F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-iOSBoilerplate</string>
+			<key>productName</key>
+			<string>Pods-iOSBoilerplate</string>
+			<key>productReference</key>
+			<string>764965566112790BFF4EDFAE1A3DA1BF</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>D92D38A9CEBF930067A1861C2379DD7B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9CA4F6CE3E7870F94B301709F59981B3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DC150BFEF77E38E5AE9D548010713249</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVUIWebViewEngine.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewEngine.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DD44B81CFA55773AEF914D26A34DB11D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B749CF5339EA7EB5B19D6C1475253ECE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>DE0959AA7B8EF8B5AEA4A9E52814D98A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSDictionary+CordovaPreferences.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/NSDictionary+CordovaPreferences.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E0E97ECEC13A7F96291EDC14C63D2D4B</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>6E767BEB08592BA5A107DD72E5E8D429</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/FDStackView/FDStackView-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>E222F0E5EE97C44E68BCD0009592FFF7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSDictionary+CordovaPreferences.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/NSDictionary+CordovaPreferences.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E3D94CA5579CC2AFD6C7D869E4B02F31</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVIntentAndNavigationFilter.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/Plugins/CDVIntentAndNavigationFilter/CDVIntentAndNavigationFilter.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E3DC421D76C6935381701F48CFC2FF81</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B8DB52777577A868D48464E01492D65D</string>
+				<string>8416C0F64BF9BA2FA0D0DC050096BEE2</string>
+				<string>F854B4064E7348F1AC433F8D94F89419</string>
+				<string>B18D5AFFEC94DA3F5B8F55321916816E</string>
+				<string>A5D5B07625107CF40CBFBE44D3012D9A</string>
+				<string>B7C135A1A7828A02707310F11E72D01C</string>
+				<string>EAD0F0B821FDDCE99FE15B44CA2310C0</string>
+				<string>40504EB57B097055AABF9660833E7950</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>E4255D18624405741FD84A406B267DCC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSMutableArray+QueueAdditions.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/NSMutableArray+QueueAdditions.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E43B77BAC8AB3BC221FEC35A960F8C63</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A48C7D4C0631F561A819C0A1FDA331A1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>E50D7DC315065E93D3B54266B59C872E</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>CB42FC8C02C6D34A8EBBEAC3E692A9FD</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/PureLayout/PureLayout-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>E9C8CBDA2768A3DF0F9F4D6AA158535E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C6996D21C563C7B0E57884882B2C1D8A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EAD0F0B821FDDCE99FE15B44CA2310C0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>77823B20695F96ECDD6D14A4DDE4081D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>EB0F6BF4EBBDB6B11ED75F5FCFDB7FAA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>EB62284EABBA28EED4AA4DC23781B21B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-iOSBoilerplate-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EBEE45D36AE5C8509FA91C1E6BEB391B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVPlugin.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVPlugin.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EC2007069C78BF069A2FF7AA56630F99</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>6E767BEB08592BA5A107DD72E5E8D429</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/FDStackView/FDStackView-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>ECF3A012AEBC4FDDFD48808046147055</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVJSON_private.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/CDVJSON_private.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ED99DAF4F2495A0B8A13158125B249CE</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>AssetsLibrary.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/AssetsLibrary.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>EE1404439F83CEA8C153FC7498EEBF27</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FDStackViewAlignmentLayoutArrangement.m</string>
+			<key>path</key>
+			<string>FDStackView/FDStackViewAlignmentLayoutArrangement.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EE33AD56BEB6B612F750A407EC806838</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EED2787265F2A11470979804CA65C867</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>EED2787265F2A11470979804CA65C867</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVGestureHandler.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/Plugins/CDVGestureHandler/CDVGestureHandler.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EEE8A6985C286158B27AA9B4832EE10F</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>EC2007069C78BF069A2FF7AA56630F99</string>
+				<string>E0E97ECEC13A7F96291EDC14C63D2D4B</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>EF90978FE989D5ACAD4171AEDC34DDF9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FDGapLayoutGuide.h</string>
+			<key>path</key>
+			<string>FDStackView/FDGapLayoutGuide.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EFA6747B6101B84E47B54D0795DCEAA4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>509DA0C998F97DAEBF035CBA5C8B97D9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>EFAE4591DFB624E1306D9C56FBEEFDEA</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>871A5F56215303A2A61BC8D0AB6E4353</string>
+				<string>3FDFB8C3F08C1110418B199BFCC0AA54</string>
+				<string>D272E997CDE2117B7F151B3271F09457</string>
+				<string>839C8645A2962A7C16BAA274990344CB</string>
+				<string>5E562C03D113C30E2C6873896B62269D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>F1521306039759AA580D0CEE4E462A94</key>
+		<dict>
+			<key>fileRef</key>
+			<string>08E997837DB18BE7DE5593764C85AC43</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F1C4B2F0E739436E8CE815F67B9E638F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FDStackViewExtensions.h</string>
+			<key>path</key>
+			<string>FDStackView/FDStackViewExtensions.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F3C80C230C460B48502FAA7F41E77A16</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSArray+PureLayout.h</string>
+			<key>path</key>
+			<string>PureLayout/PureLayout/NSArray+PureLayout.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F54067914311F0D4B5D8D2FAD5FA209B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9872BDD0C8974AA5D91201D85F608479</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>F5974932AEF276A6AAB0EC4C732BE8DD</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libCordova.a</string>
+			<key>path</key>
+			<string>libCordova.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>F638C77E18F757F57EE4D32851D9A26C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVAvailabilityDeprecated.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVAvailabilityDeprecated.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F854B4064E7348F1AC433F8D94F89419</key>
+		<dict>
+			<key>fileRef</key>
+			<string>15EA7C460B31A16AAB443213C4550A56</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>FA2B6B7E94372510491A72D4D3DE67A7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-iOSBoilerplate-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA45A22585C0A18DE6E923C5548B1F23</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>44255D979C60D29ACF6D1A815969C33D</string>
+				<string>EB62284EABBA28EED4AA4DC23781B21B</string>
+				<string>FA2B6B7E94372510491A72D4D3DE67A7</string>
+				<string>956988C00826DFF482E4827D9F84F804</string>
+				<string>0D130698943F179124EA06F29EC3BFAE</string>
+				<string>C2C3D04148A115155ED037FC14B5BF84</string>
+				<string>6E62B58ACB5BB5D94112036E27C4876E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-iOSBoilerplate</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-iOSBoilerplate</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FBE15AF85841105654F244200689E789</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Cordova</string>
+			<key>target</key>
+			<string>C30A2FE4E19459D24A2DCAC12AA80B54</string>
+			<key>targetProxy</key>
+			<string>2DC86ADEF13F750BCE61B65AA4D823ED</string>
+		</dict>
+		<key>FD31DE9D9DAD4D670BFB020F167E4206</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>4CE10FC34905A89BDE0A80543E5867EC</string>
+				<string>985548B4CCEFDB32C8616F835C5CF615</string>
+				<string>BB40A092703D8B3E2FCA55FA30D3FF9C</string>
+				<string>25F25E79DE3693632361D0DCD5FE728F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>FE8E9AEEB441B4EE230CD68DE52AEE7A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>CF677F424A23E3723A3CE4432AE224F5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>D41D8CD98F00B204E9800998ECF8427E</string>
+</dict>
+</plist>

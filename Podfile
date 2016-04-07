@@ -6,6 +6,7 @@
 target 'iOSBoilerplate' do
 	pod 'PureLayout' # 支持AutoLayout的语法糖简化
 	pod 'FDStackView' # 对于StackView的Polyfill
+	pod 'Cordova', '~> 4.0.1' # 支持Cordova WebView容器
 
 end
 
