@@ -100,7 +100,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KND-dz-nF4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="505" y="53"/>
+            <point key="canvasLocation" x="621" y="-753"/>
         </scene>
         <!--Web View Catalogue Table View-->
         <scene sceneID="pcY-Wd-2QK">
@@ -158,7 +158,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zXe-QL-0g7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1123" y="100"/>
+            <point key="canvasLocation" x="1135" y="-753"/>
         </scene>
         <!--iOS-Boilerplate-->
         <scene sceneID="TvU-5w-Qri">
@@ -175,7 +175,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2ei-f1-m3T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-321" y="-12"/>
+            <point key="canvasLocation" x="-385" y="-753"/>
         </scene>
     </scenes>
 </document>
