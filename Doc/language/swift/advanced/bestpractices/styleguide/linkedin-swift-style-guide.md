@@ -527,9 +527,9 @@ let pirateName = "LeChuck"
 
 
 
-* **3.4.3** The `case` statements should line up with the `switch` statement itself as per default Swift standards.
+* **3.4.3** 每个`case`声明都应该与`switch`对齐就像Swift默认模板一样。
 
-* **3.4.4** When defining a case that has an associated value, make sure that this value is appropriately labeled as opposed to just types (e.g. `case Hunger(hungerLevel: Int)` instead of `case Hunger(Int)`).
+* **3.4.4** 当定义的case的语句有关联值时确保这个值有恰当的参数标签（例子：用 `case Hunger(hungerLevel: Int)`而不是`case Hunger(Int)`）。
 
 ```swift
 enum Problem {
