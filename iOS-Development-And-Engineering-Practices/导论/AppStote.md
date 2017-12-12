@@ -1,4 +1,4 @@
-[toc]
+ 
 
 > 本文从属于笔者的[iOS入门与最佳实践](https://github.com/wxyyxc1992/iOS-Boilerplate)系列文章，最近又被AppStore提交审核搞的要死要死的，所以在本文略做总结。
 
