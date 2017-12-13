@@ -280,7 +280,7 @@ GitHubService service = retrofit.create(GitHubService.class);
 
 ## Retrofit
 
-> - [Effective OkHttp](http://omgitsmgp.com/2015/12/02/effective-okhttp/?utm_source=tuicool&utm_medium=referral)
+> - [Effective OkHttp](http://omgitsmgp.com/2015/12/02/effective-okhttp/)
 
 
 # Serialization
