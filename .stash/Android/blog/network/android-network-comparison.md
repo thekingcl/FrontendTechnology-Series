@@ -276,11 +276,11 @@ GitHubService service = retrofit.create(GitHubService.class);
 
 > 参考资料
 > 
-> - [Android Volley全解析][2]
+- [Android Volley全解析][2]
 
 ## Retrofit
 
-> - [Effective OkHttp](http://omgitsmgp.com/2015/12/02/effective-okhttp/)
+- [Effective OkHttp](http://omgitsmgp.com/2015/12/02/effective-okhttp/)
 
 
 # Serialization
@@ -289,8 +289,8 @@ GitHubService service = retrofit.create(GitHubService.class);
 
 ## FlatBuffers
 
-> - [flatbuffers-in-android-introdution](http://frogermcs.github.io/flatbuffers-in-android-introdution/)
-> - [json-parsing-with-flatbuffers-in-android](http://frogermcs.github.io/json-parsing-with-flatbuffers-in-android/)
+- [flatbuffers-in-android-introdution](http://frogermcs.github.io/flatbuffers-in-android-introdution/)
+- [json-parsing-with-flatbuffers-in-android](http://frogermcs.github.io/json-parsing-with-flatbuffers-in-android/)
 
 
 # HTTP Stubs

@@ -6,7 +6,7 @@
 - [ipv6,后台定位等审核问题的终极解决方案汇总](https://github.com/wg689/Solve-App-Store-Review-Problem)
 
 # 证书
-> - [ iOS Provisioning Profile(Certificate)与Code Signing详解 ](http://blog.csdn.net/phunxm/article/details/42685597/)
+- [ iOS Provisioning Profile(Certificate)与Code Signing详解 ](http://blog.csdn.net/phunxm/article/details/42685597/)
 
 ![](https://coding.net/u/hoteam/p/Cache/git/raw/master/2016/8/2/5B92CF5E-7B97-46C6-8CE6-1EDC12C8BF08.png)
 
@@ -76,7 +76,7 @@ Her skill：此时，可以在他人原有App ID基础上添加后缀（例如co
 笔者之前做过体育社交类产品，提交的时候被拒了，原因是没有添加内容举报的功能。
 
 # IPv6 Issue
-> - [针对苹果iOS最新审核要求为应用兼容IPv6](http://www.jianshu.com/p/54b989098537)
+- [针对苹果iOS最新审核要求为应用兼容IPv6](http://www.jianshu.com/p/54b989098537)
 
 自2016年6月1日起，苹果要求所有提交App Store的iOS应用必须支持IPv6-only环境，背景也是众所周知的，IPv4地址已基本分配完毕，同时IPv6比IPv4也更加高效，向IPv6过渡是大势所趋。
 

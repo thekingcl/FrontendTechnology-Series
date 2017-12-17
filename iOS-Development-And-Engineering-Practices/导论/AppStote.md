@@ -6,7 +6,7 @@
 
 # 证书
 
-> * [ iOS Provisioning Profile(Certificate) 与 Code Signing 详解 ](http://blog.csdn.net/phunxm/article/details/42685597/)
+>[ iOS Provisioning Profile(Certificate) 与 Code Signing 详解 ](http://blog.csdn.net/phunxm/article/details/42685597/)
 
 ![](https://coding.net/u/hoteam/p/Cache/git/raw/master/2016/8/2/5B92CF5E-7B97-46C6-8CE6-1EDC12C8BF08.png)
 
@@ -65,7 +65,7 @@ Provisioning Profile 文件包含了上述的所有内容：证书、App ID 和 
 
 # IPv6 Issue
 
-> * [针对苹果 iOS 最新审核要求为应用兼容 IPv6](http://www.jianshu.com/p/54b989098537)
+>[针对苹果 iOS 最新审核要求为应用兼容 IPv6](http://www.jianshu.com/p/54b989098537)
 
 自 2016 年 6 月 1 日起，苹果要求所有提交 App Store 的 iOS 应用必须支持 IPv6-only 环境，背景也是众所周知的，IPv4 地址已基本分配完毕，同时 IPv6 比 IPv4 也更加高效，向 IPv6 过渡是大势所趋。
 

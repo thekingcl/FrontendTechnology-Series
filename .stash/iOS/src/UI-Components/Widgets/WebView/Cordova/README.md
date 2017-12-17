@@ -71,7 +71,7 @@ config.xml即是主要的配置文件，在iOS中其需要放置到`/AppName/con
 
 ### Network Configuration
 
-> - [cordova-5-ios-9-security-policy-changes](http://moduscreate.com/cordova-5-ios-9-security-policy-changes/)
+- [cordova-5-ios-9-security-policy-changes](http://moduscreate.com/cordova-5-ios-9-security-policy-changes/)
 
 
 
